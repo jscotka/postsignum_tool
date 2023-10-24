@@ -24,8 +24,7 @@ python3 ~/git/postsignum_tool/postsignum_tool/merge.py
 
 ## Prerequisities
 
-
-### Required installed packages
+### Install packages
 ```bash
 sudo dnf install python3 msmtp openssl git
 ```
@@ -34,12 +33,6 @@ sudo dnf install python3 msmtp openssl git
 ```bash
 mkdir -p ~/git/postsignum_tool
 git clone https://github.com/jscotka/postsignum_tool.git ~/git/postsignum_tool
-```
-
-
-### Required installed packages
-```bash
-sudo dnf install python3 msmtp openssl
 ```
 
 ### configure msmtp
