@@ -24,6 +24,13 @@ python3 ~/git/postsignum_tool/postsignum_tool/merge.py
 
 ## Prerequisities
 
+### Clone tooling into your home dir
+```bash
+mkdir -p ~/git/postsignum_tool
+git clone https://github.com/jscotka/postsignum_tool.git ~/git/postsignum_tool
+```
+
+
 ### Required installed packages
 ```bash
 sudo dnf install python3 msmtp openssl
